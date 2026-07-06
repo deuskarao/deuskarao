@@ -142,64 +142,6 @@ Built to move beyond static, file-based data storage into a fully relational, re
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=deuskarao&amp;theme=react-dark&amp;hide_border=true&amp;bg_color=0f172a&amp;color=3b82f6&amp;line=2563eb&amp;point=e2e8f0" width="100%"/>
 </div>
 
-## Contribution Snake
-
-<!--
-Uncomment the block below once the platane/snk workflow (see setup note below)
-has run at least once and generated the file on the `output` branch:
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/deuskarao/deuskarao/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</div>
--->
-
-> Snake animation not active yet — the source file doesn't exist until the GitHub Action below has run once on `deuskarao/deuskarao`.
-
-<details>
-<summary>Setup: enable the contribution snake</summary>
-<br/>
-
-Create a repo named exactly `deuskarao` (a "profile repo"), then add this file at `.github/workflows/snake.yml`:
-
-```yaml
-name: generate snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: deuskarao
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Push it to `main`. It runs automatically (and once a day after that) and writes the SVGs to a new `output` branch. Once that branch exists and has the file, uncomment the `<img>` block above this note.
-
-</details>
-
-<br/>
-
 ## Current Focus
 
 ```yaml
