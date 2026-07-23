@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f172a,50:1e3a5f,100:2563eb&amp;height=220&amp;section=header&amp;text=M.%20Mustafa%20K.&amp;fontSize=42&amp;fontColor=e2e8f0&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Deus%20%7C%20Foreign%20Trade%20%26%20Software%20Development&amp;descAlignY=55&amp;descSize=18" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=22&amp;duration=3000&amp;pause=800&amp;color=60A5FA&amp;center=true&amp;vCenter=true&amp;width=560&amp;lines=Foreign+Trade+Student;Building+LifeOS+%26+UniPulse;Python+%E2%80%A2+C+%E2%80%A2+C%23+%E2%80%A2+Swift+%E2%80%A2+Kotlin;Cross-Platform+App+Developer" alt="Typing SVG" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+  <img src="./assets/dark.svg" width="100%" alt="M. Mustafa K. — Deus, header banner"/>
+</picture>
 
 <br/>
 
