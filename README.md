@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img src="./assets/dark.svg" width="100%" alt="M. Mustafa K. — Deus, header banner"/>
+  <img src="./assets/light.svg" width="100%" alt="M. Mustafa K. — Deus, header banner"/>
 </picture>
 
 <br/>
